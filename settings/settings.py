@@ -1,6 +1,6 @@
 import os
 
-ENV = os.getenv('ENV', 'prod')
+ENV = os.getenv('ENV', 'dev')
 
 
 if ENV == 'dev':
